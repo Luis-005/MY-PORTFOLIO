@@ -141,72 +141,66 @@ main .main{
     padding: 0;
 }
 
+@media (max-width: 1279px) {
 
-
-
-@media (max-width: 480px) {
-    body{
-        background-image: none;
-        background-color: #26262b;
-        width: 480px;
-    }
-    .main{
-        flex-direction: column;
-    }
-    .header > h1{
+    .header > h1 {
         font-size: 20px;
         margin-left: 15px;
-        align-items: center;
     }
-    .header > nav{
+    
+    .header > nav {
         margin: 0;
     }
-    .header > nav > ul > li{
-        width: 60px;
-        height: auto;
-        margin-left: 30px;
+    
+    .header > nav > ul > li {
+        width: auto;
+        margin-left: 10px;
     }
-    .header > nav > ul > li > a{
-        font-size: 10px;
+    
+    .header > nav > ul > li > a,
+    .header > nav > ul > li > details > summary,
+    .header > nav > ul > li > details > a {
+        font-size: 12px;
     }
-    .header > nav > ul > li > details > summary{
-        font-size: 10px;
-    }
-    .header > nav > ul > li > details > a{
-        font-size: 10px;
-    }
-    .my-perfil{
+    
+    .my-perfil {
         flex-direction: column;
         width: 100%;
         height: auto;
         margin: 0;
     }
-    .information{
+    
+    .information {
         width: 100%;
         height: auto;
         margin: 0;
     }
-    .information > h2{
+    
+    .information > h2 {
         font-size: 20px;
-        justify-content: center;
+        text-align: center;
     }
-    .information > p{
-        justify-content: center;
+    
+    .information > p {
+        text-align: center;
         font-size: 15px;
     }
-    .my-img{
+    
+    .my-img {
         width: 100%;
         height: auto;
         display: flex;
         justify-content: center;
         margin: 0 auto;
     }
-    .my-img > img{
+    
+    .my-img > img {
         width: 150px;
         height: 150px;
         margin: auto;
     }
-    .container-card{
+    
+    .container-card {
         flex-direction: column;
         width: 100%;
         align-items: center;
@@ -214,13 +208,180 @@ main .main{
         margin: 0;
         padding: 0;
     }
-    .card{
+    
+    .card {
         width: 250px;
         height: 250px;
         margin-top: 20px;
     }
-    .card> h1{
+    
+    .card > h1 {
         font-size: 15px;
     }
+}
 
+
+@media (max-width: 768px) {
+    body {
+        background-image: linear-gradient(#000000, #000000, #383b64);
+    }
+    
+    .header > h1 {
+        font-size: 20px;
+        margin-left: 15px;
+    }
+    
+    .header > nav {
+        margin: 0;
+    }
+    
+    .header > nav > ul > li {
+        width: auto;
+        margin-left: 10px;
+    }
+    
+    .header > nav > ul > li > a,
+    .header > nav > ul > li > details > summary,
+    .header > nav > ul > li > details > a {
+        font-size: 12px;
+    }
+    
+    .my-perfil {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    
+    .information {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    
+    .information > h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .information > p {
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .my-img {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    
+    .my-img > img {
+        width: 150px;
+        height: 150px;
+        margin: auto;
+    }
+    
+    .container-card {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .card {
+        width: 250px;
+        height: 250px;
+        margin-top: 20px;
+    }
+    
+    .card > h1 {
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    body {
+        background-image: linear-gradient(#000000, #000000, #383b64);
+    }
+    
+    .header > h1 {
+        font-size: 20px;
+        margin-left: 15px;
+    }
+    
+    .header > nav {
+        margin: 0;
+    }
+    
+    .header > nav > ul > li {
+        width: auto;
+        margin-left: 10px;
+    }
+    
+    .header > nav > ul > li > a,
+    .header > nav > ul > li > details > summary,
+    .header > nav > ul > li > details > a {
+        font-size: 12px;
+    }
+    
+    .my-perfil {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    
+    .information {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    
+    .information > h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .information > p {
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .my-img {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    
+    .my-img > img {
+        width: 150px;
+        height: 150px;
+        margin: auto;
+    }
+    
+    .container-card {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .card {
+        width: 250px;
+        height: 250px;
+        margin-top: 20px;
+    }
+    
+    .card > h1 {
+        font-size: 15px;
+    }
 }
