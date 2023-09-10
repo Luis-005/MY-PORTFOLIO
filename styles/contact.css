@@ -1,0 +1,111 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-image: url(../imagenes/v1016-b-09.jpg);
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{
+    width: 400px;
+    height: 400px;
+    background-color: #377b9b2a;
+    box-shadow: 2px 2px 2px 2px#5173e2;
+    border: solid #4777c0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.contact > div{
+    height: 100px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.WhatsApp > img{
+    height: 90px;
+    width: 90px;
+    border-radius: 100px;
+    margin-left: 30px;
+}
+
+.Instagram > img{
+    height: 55px;
+    width: 55px;
+    border-radius: 15px;
+    margin-left: 50px;
+}
+
+.WhatsApp > a{
+    color: #ffffff;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.Instagram > a{
+    color: #ffffff;
+    font-size: 30px;
+    margin-left: 60px;
+}
+@media (max-width: 1279){}
+
+
+@media (max-width: 768px){}
+
+
+@media(max-width: 480px) {
+    body{
+        background-image: none;
+        background-color: #26262b;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact{
+        margin: 0;
+        padding: 0;
+        width: 350px;
+        height: 500px;
+    }
+    .WhatsApp > img{
+        padding: 0;
+        width: 100px;
+        height: 100px;
+    }
+    .WhatsApp > a{
+        padding: 0;
+        margin: 0;
+        font-size: 40px;
+    }
+    .Instagram > img{
+        padding: 0;
+        width: 63px;
+        height: 63px;
+        margin-left: 48px;
+    }
+    .Instagram > a{
+        padding: 0;
+        margin-left: 20px; 
+        font-size: 45px;
+    }
+}
