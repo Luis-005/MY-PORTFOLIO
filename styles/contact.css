@@ -68,13 +68,18 @@ body{
 @media (max-width: 1279){}
 
 
-@media (max-width: 768px){}
+@media (max-width: 768px){
+    body{
+        background-image: linear-gradient(#000000, #000000, #383b64);
+        background-color: #383b64;
+    }
+}
 
 
 @media(max-width: 480px) {
     body{
-        background-image: none;
-        background-color: #26262b;
+        background-image: linear-gradient(#000000, #000000, #383b64);
+        background-color: #383b64;
         min-height: 100vh;
         display: flex;
         justify-content: center;
@@ -82,30 +87,36 @@ body{
     }
 
     .contact{
-        margin: 0;
-        padding: 0;
-        width: 350px;
-        height: 500px;
+        width: 400px;
+        height: 400px;
+        background-color: none;
+        box-shadow: none;
+        border: none;
+        border-radius: none;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
     }
     .WhatsApp > img{
         padding: 0;
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
     .WhatsApp > a{
         padding: 0;
         margin: 0;
-        font-size: 40px;
+        font-size: 30px;
     }
     .Instagram > img{
         padding: 0;
-        width: 63px;
-        height: 63px;
+        width: 50px;
+        height: 50px;
         margin-left: 48px;
+        border-radius: 50px;
     }
     .Instagram > a{
         padding: 0;
         margin-left: 20px; 
-        font-size: 45px;
+        font-size: 35px;
     }
 }

@@ -4,6 +4,7 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
+    background-image: linear-gradient(#383b64, #000000, #000000);  
 }
 
 .cajero {
