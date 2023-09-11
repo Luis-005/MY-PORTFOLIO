@@ -126,17 +126,21 @@ body{
     }
     .PPT > img{
         width: 160px;
-        height: 230px;
+        height: 210px;
     }
     .cajero > img{
         width: 160px;
-        height: 230px;
+        height: 210px;
     }
     .PPT > a{
         margin-top: 5px;
+        width: 50px;
+        height: 15px;
     }
     .cajero > a{
         margin-top: 5px;
+        width: 50px;
+        height: 15px;
     }
 
 }
