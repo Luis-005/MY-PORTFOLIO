@@ -224,6 +224,7 @@ main .main{
 @media (max-width: 768px) {
     body {
         background-image: linear-gradient(#000000, #000000, #383b64);
+        background-color: #383b64;
     }
     
     .header > h1 {
