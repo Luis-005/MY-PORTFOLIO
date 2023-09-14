@@ -383,11 +383,11 @@ main .main{
     
     .card {
         width: 250px;
-        height: 250px;
+        height: 400px;
         margin-top: 20px;
     }
     
     .card > h1 {
-        font-size: 15px;
+        font-size: 25px;
     }
 }
