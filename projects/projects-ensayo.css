@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../imagenes/v1016-b-09.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    width: 100%;
+    min-height: 35rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cajero, .PPT {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 480px; /* Ancho máximo de 480px para pantallas pequeñas */
+    background-color: #004e6d6e;
+    box-shadow: 2px 2px 2px 2px #6553a79c;
+}
+
+.cajero > img, .PPT > img {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.cajero > p, .PPT > p {
+    font-size: 20px;
+    margin: 15px;
+    color: #ffffff;
+}
+
+.cajero > a, .PPT > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 30px;
+    margin-top: 5px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.cajero > a:hover, .PPT > a:hover {
+    background-color: #004e6d;
+}
+
+@media (max-width: 480px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .cajero, .PPT {
+        max-width: 100%; }
+}
